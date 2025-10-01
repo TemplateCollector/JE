@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te amo 💖</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fbeff1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      overflow: hidden;
+      position: relative;
+    }
+    h1 {
+      font-size: 6em;
+      color: #e94d58;
+      text-shadow: 2px 2px 5px black;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+    }
+    .orbit {
+      position: absolute;
+      width: 300px; /* tamaño de la órbita */
+      height: 300px;
+      border-radius: 50%;
+      animation: girar 15s linear infinite;
+    }
+    .orbit img {
+      position: absolute;
+      width: 70px;
+      height: auto;
+    }
+    @keyframes girar {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    /* Posiciones iniciales de los gatitos */
+    .orbit img:nth-child(1) { top: -40px; left: 50%; transform: translateX(-50%); }
+    .orbit img:nth-child(2) { right: -40px; top: 50%; transform: translateY(-50%); }
+    .orbit img:nth-child(3) { bottom: -40px; left: 50%; transform: translateX(-50%); }
+    .orbit img:nth-child(4) { left: -40px; top: 50%; transform: translateY(-50%); }
+  </style>
+</head>
+<body>
+  <h1>💖 TE AMO 💖</h1>
+
+  <!-- Órbita con gatitos -->
+  <div class="orbit">
+    <img src="https://i.imgur.com/y7h3h7T.png" alt="gato negro">
+    <img src="https://i.imgur.com/y7h3h7T.png" alt="gato negro">
+    <img src="https://i.imgur.com/y7h3h7T.png" alt="gato negro">
+    <img src="https://i.imgur.com/y7h3h7T.png" alt="gato negro">
+  </di
