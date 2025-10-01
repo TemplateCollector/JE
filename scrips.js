@@ -9,7 +9,7 @@ yesBtn.addEventListener("click", () => {
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
-/*noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("mouseover", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
@@ -19,10 +19,11 @@ yesBtn.addEventListener("click", () => {
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
-});*/
+});
 
 noBtn.addEventListener("click", () => {
   window.location.href = "teamo.html"; // Redirige a la nueva página
 });
+
 
 
