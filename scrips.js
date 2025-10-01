@@ -21,9 +21,10 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = randomY + "px";
 });
 
-noBtn.addEventListener("click", () => {
+/*noBtn.addEventListener("click", () => {
   window.location.href = "teamo.html"; // Redirige a la nueva página
-});
+});*/
+
 
 
 
